@@ -5,5 +5,5 @@ from django.db import models
 
 
 class Joke(models.Model):
-    setup = models.CharField(max_length=10000)
-    punchLine = models.CharField(max_length=10000)
+    setup = models.TextField()
+    punchLine = models.TextField()
